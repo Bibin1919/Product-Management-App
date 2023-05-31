@@ -1,0 +1,17 @@
+.container{
+    background-color: aliceblue;
+    
+}
+.about{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+#about-heading{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}

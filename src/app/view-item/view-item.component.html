@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="mt-3">Product Management Application - A B C Store</h1>
+            <h3 class="mt-3">View Your Product</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Product View -->
+<div id="view">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <!-- Product Image -->
+                <img class="w-100" [src]="item.thumbnail" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <ul class="list-group border border-3 justify-content-center">
+                    <li class="list-group-item">Product Name : <span>{{item.title}}</span></li>
+                    <li class="list-group-item">Description : <span>{{item.description}}</span></li>
+                    <li class="list-group-item">Brand : <span>{{item.brand}}</span></li>
+                    <li class="list-group-item">Category : <span>{{item.category}}</span></li>
+                    <li class="list-group-item">Price : <span>{{item.price}}</span></li>
+                    <li class="list-group-item">Discount Percentage : <span>{{item.discountPercentage}}</span></li>
+                    <li class="list-group-item">Rating : <span>{{item.rating}}</span></li>
+                    <li class="list-group-item">Stock Number : <span>{{item.stock}}</span></li>
+                   <!--  <li class="list-group-item"></li> -->
+                  </ul>
+                
+            </div>
+        </div>
+    </div>
+</div>
